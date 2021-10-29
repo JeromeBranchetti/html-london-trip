@@ -5,8 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
-<body>
+<body style="background-color: lemonchiffon;">
     <header>
         <!--Qui ci sono le immagini e il titolo principale-->
         <h1>Il mio Viaggio a Londra</h1>
@@ -19,11 +29,11 @@
         <section>
             <!--Questa è una tabella delle spese-->
             <h2>Le mie spese</h2>
-            <table>
+            <table class="center">
                 <tr>
-                    <th><strong>Nunero</strong></th>
-                    <th><strong>Descrizione</strong></th>
-                    <th><strong>Costo</strong></th>
+                    <th>Nunero</th>
+                    <th>Descrizione</th>
+                    <th>Costo</th>
                 </tr>
                 <tr>
                     <td>1</td>
@@ -91,9 +101,16 @@
     </main>
     <footer>
         <!--immagini del viaggio grandi-->
+        
         <h3>Le foto</h3>
-        <img src="london4.jpg" alt="Fiume">
-        <img src="london5.jpg" alt="Centro commerciale">
+        <a href="https://www.youtube.com/watch?v=wQH0ySLLFRM&ab_channel=TaurusBullTheWanderer" target="_blank">
+            <img src="london4.jpg" alt="Fiume">
+        </a>
+        
+        <a href="https://www.newcoventgardenmarket.com/" target="_blank">
+            <img src="london5.jpg" alt="Centro commerciale">
+        </a>
+            
     </footer>
 </body>
 </html>
